@@ -1,5 +1,4 @@
 # Making a calculator which calculate root values up to user's input decimal places by 'Binomial theorem'.
-
 def root_calculator(x, n, no_of_decimal_place, common_no):
     final_value = common_no
     current_value = common_no
@@ -18,5 +17,6 @@ user_n = eval(input("Enter the value of n (e.g., 1/3): "))
 user_terms = int(input("Enter number of terms/decimal places: "))
 user_common = float(input("Enter the number taken as common: "))
 
+# Printing the final result 
 result = root_calculator(user_x, user_n, user_terms, user_common)    
 print(result)
